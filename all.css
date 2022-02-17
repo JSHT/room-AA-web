@@ -133,6 +133,13 @@ table {
 ::before {
   box-sizing: border-box;
 }
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 5px;
+}
 a {
   text-decoration: none;
   display: inline-block;
@@ -207,6 +214,7 @@ body {
 .mb-3 {
   margin-bottom: 24px;
 }
+
 .btn {
   background-color: #1e57a2;
   color: white;
